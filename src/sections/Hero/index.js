@@ -4,20 +4,20 @@ import Image from 'next/image'
 
 function Hero() {
   return (
-    <div className="px-[135px] pt-10 bg-bg bg-red" >
+    <div className="px-[135px] pt-10 bg-bg" >
       <NavBar/>
-      <div className='mt-[92px] w-full h-[360px] bg-main-oranges flex flex-row justify-between' >
-          <div className='w-[270px] h-[330px] relative' >
-            <Image src="/images/home1.png" layout='fill'  />
+      <div className='mt-[92px] w-full min-h-[360px]  grid grid-cols-4 gap-7 ' >
+          <div className=' col-span-1  relative' >
+            <Image src="/images/home1.png" layout='fill'/>
           </div>
-          <div className='w-[270px] h-[330px] relative translate-y-7' >
-            <Image src="/images/home2.png" layout='fill'  />
+          <div className='min-w-[270px] min-h-[330px] max-h-[530px] relative translate-y-7'>
+            <Image src="/images/home2.png" layout='fill'/>
           </div>
-          <div className='w-[270px] h-[330px] relative ' >
-            <Image src="/images/home3.png" layout='fill'  />
+          <div className='min-w-[270px] min-h-[330px] max-h-[530px] relative ' >
+            <Image src="/images/home3.png" layout='fill'/>
           </div>
-          <div className='w-[270px] h-[330px] relative translate-y-7' >
-            <Image src="/images/home4.png" layout='fill'  />
+          <div className='min-w-[270px] min-h-[330px] relative max-h-[530px] translate-y-7' >
+            <Image src="/images/home4.png" layout='fill'/>
           </div>
       </div>
       <div className='mt-[70px] ' >
