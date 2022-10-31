@@ -8,7 +8,7 @@ function NavBar() {
             <span className='block h-6 w-6 relative'>
                 <Image src="/images/layer1.png" layout='fill' objectFit='cover' />
             </span>
-            <span className='block text-2xl font-medium text-main-dark ml-2' >
+            <span className='block text-[22px] font-medium text-main-dark ml-2' >
                 dwelling
             </span>
         </div>
