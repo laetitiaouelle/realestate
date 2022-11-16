@@ -14,29 +14,29 @@ function NavBar() {
         </div>
 
         <div className='flex flex-row items-center' >
-            <nav className=' overflow-hidden w-full' >
-                <ul className='flex flex-row w-full ' >
-                    <li className=' mr-10 ' >
+            <nav className=' lg:block hidden overflow-hidden w-full' >
+                <ul className='flex flex-row w-full gap-5 xl:gap-10' >
+                    <li className='' >
                         <a className=' text-base font-normal text-main-dark cursor-pointer hover:text-main-orange ' >
                             Home
                         </a>
                     </li>
-                    <li className=' mx-10 ' >
+                    <li className='  ' >
                         <a className=' text-base font-normal text-main-dark cursor-pointer hover:text-main-orange ' >
                         About us
                         </a>
                     </li>
-                    <li className=' mx-10 ' >
+                    <li className=' ' >
                         <a className=' text-base font-normal text-main-dark cursor-pointer hover:text-main-orange ' >
                         Renters
                         </a>
                     </li>
-                    <li className=' mx-10 ' >
+                    <li className=' ' >
                         <a className=' text-base font-normal text-main-dark cursor-pointer hover:text-main-orange ' >
                         Homeowners
                         </a>
                     </li>
-                    <li className=' ml-10 ' >
+                    <li className='' >
                         <a className=' text-base font-normal text-main-dark cursor-pointer hover:text-main-orange ' >
                         Reviews
                         </a>

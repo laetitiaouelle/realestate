@@ -5,8 +5,8 @@ import {FaFacebookF, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 function Footer() {
   return (
     <div className='bg-bg' >
-        <div className='grid grid-cols-2' >
-            <div className='col-span-1' >
+        <div className='grid grid-cols-2  ' >
+            <div className='lg:col-span-1 col-span-2 mb-10 lg:mb-0' >
                 <div className='flex flex-row items-center' >
                     <span className='block h-6 w-6 relative'>
                         <Image src="/images/layer1.png" layout='fill' objectFit='cover' />
@@ -27,8 +27,8 @@ function Footer() {
                     </a>
                 </div>
             </div>
-            <div className='col-span-1 grid grid-cols-3 ' >
-                <div className='col-span-1' >
+            <div className='lg:col-span-1 col-span-2 grid grid-cols-3 order-last lg:order-first ' >
+                <div className=' col-span-3 md:col-span-1 mb-4 lg:mb-0' >
                     <span className='block text-[22px] font-medium text-main-dark mb-6 ' >
                         Dwelling
                     </span>
@@ -63,7 +63,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className='col-span-1' >
+                <div className=' col-span-3 md:col-span-1 mb-4 lg:mb-0' >
                     <span className='block text-[22px] font-medium text-main-dark mb-6 ' >
                         Company
                     </span>
@@ -112,7 +112,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className='col-span-1' >
+                <div className=' col-span-3 md:col-span-1 mb-4 lg:mb-0' >
                     <span className='block text-[22px] font-medium text-main-dark mb-6 ' >
                         Support
                     </span>

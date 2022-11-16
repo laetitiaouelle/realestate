@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 function Testimonial() {
   return (
-    <div className="px-[135px] bg-[#191623] py-[100px]">
+    <div className="px-[18px] sm:px-[50px] lg:px-[135px] bg-[#191623] py-[100px]">
       <div className='grid grid-cols-2' >
-        <div className='col-span-1' >
-            <span className='block font-semibold text-[54px] text-[#fff] mb-[38px]' >
+        <div className=' col-span-2 sm:col-span-1 mb-10 sm:mb-0' >
+            <span className='block font-semibold md:text-[2em] lg:text-3xl xl:text-[54px] text-[#fff] mb-[38px]' >
               What client say
             </span>
             <div className=' flex flex-row w-24 justify-between h-[6px]' >
@@ -15,7 +15,7 @@ function Testimonial() {
               <span className='h-[6px] w-6 rounded-[3px] border border-[#fff] ' ></span>
             </div>
         </div>
-        <div className='col-span-1' >
+        <div className='col-span-2 sm:col-span-1' >
           <div>
             <span className='w-7 h-7 relative block ' >
               <Image src="/images/union.png" layout='fill' />

@@ -2,9 +2,9 @@ import React from 'react'
 
 function Offer() {
   return (
-    <div className="px-[135px]  bg-bg  py-[100px]">
+    <div className="px-[18px] sm:px-[50px] lg:px-[135px]  bg-bg  py-[100px]">
       <div className='w-full flex items-center justify-center ' >
-        <span className='text-[54px] font-semibold text-[#191623]' >What we give you</span>
+        <span className='md:text-[54px] text-3xl sm:text-[48px] font-semibold text-[#191623]' >What we give you</span>
       </div>
       <div className='w-full flex items-center justify-center ' >
         <span className='text-[18px] font-normal text-[#666270] max-w-[500px] text-center mt-5' >
