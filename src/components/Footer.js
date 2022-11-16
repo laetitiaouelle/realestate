@@ -22,7 +22,7 @@ function Footer() {
                     <div className='border h-[58px]  border-[#D6D4DD] rounded-md px-5 py-1 flex flex-row justify-between items-center' >
                         <input className=' h-full outline-none text-[#666270] bg-bg ' placeholder='Email' type="text"/>
                     </div>
-                    <a className=' w-[112px] ml-5 h-[58px] text-[#fff] text-base font-semibold bg-main-orange flex justify-center items-center rounded-md hover:text-main-orange hover:bg-bg hover:border-main-orange hover:border ' >
+                    <a className=' w-[112px] ml-5 h-[58px] text-[#fff] text-base font-semibold bg-main-orange flex justify-center items-center rounded-md hover:text-main-orange hover:bg-bg hover:border-main-orange hover:border cursor-pointer ' >
                         <span>Send</span>
                     </a>
                 </div>

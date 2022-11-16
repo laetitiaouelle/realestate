@@ -46,7 +46,7 @@ function NavBar() {
             </nav>
         </div>
         <div className='flex flex-row items-center' >
-            <a className=' w-[115px] h-[42px] text-[#fff] text-base font-semibold bg-main-orange flex justify-center items-center rounded-md hover:text-main-orange hover:bg-bg hover:border-main-orange hover:border ' >
+            <a className=' cursor-pointer w-[115px] h-[42px] text-[#fff] text-base font-semibold bg-main-orange flex justify-center items-center rounded-md hover:text-main-orange hover:bg-bg hover:border-main-orange hover:border ' >
                 Register
             </a>
         </div>

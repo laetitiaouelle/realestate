@@ -24,15 +24,15 @@ function About() {
         </div>
       </div>
       <div className='col-span-2 lg:col-span-1' >
-        <span className='block sm:mt-10 lg:mt-0 text-2xl mt-10 sm:text-[2em] xl:text-[3.5em] 2xl:text-[4em] font-semibold text-[#191623] ' >
+        <span className='block sm:mt-10 lg:mt-0 text-2xl mt-10 md:leading-[70px] sm:text-[2em] xl:text-[3.5em] 2xl:text-[4em] font-semibold text-[#191623] ' >
          Providing the effective solutions for you
         </span>
         <span className='block text-[18px] font-normal text-[#191623] mt-5  mb-10' >
           Building a next-generation collaborative platform to connect renters, homeowners, and agents. Live the way you want. Beautiful homes. Incredible locations. Pricing that makes sense.
         </span>
         <a className=' w-[196px] h-[42px] text-[#fff] text-base font-semibold bg-main-orange flex justify-center items-center rounded-md hover:text-main-orange hover:bg-bg hover:border-main-orange hover:border ' >
-        More About Us
-            </a>
+          More About Us
+        </a>
       </div>
     </div>
   )
