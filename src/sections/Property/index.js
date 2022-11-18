@@ -8,7 +8,7 @@ function Property() {
   return (
     <div className="px-[18px] sm:px-[50px] lg:px-[135px] h-auto xl:h-screen pt-[80px] lg:pt-[130px] mb-[150px] bg-main-purple md:bg-[#fff] ">
       <div className=' md:grid grid-cols-3 h-[570px] xl:h-full gap-7 hidden'  >
-        <div className='md:col-span-1'>
+        <div className='md:col-span-1' data-aos="fade-down" data-aos-duration="1200">
               <div className=' relative w-full h-2/3 '>
                 <Image src="/images/home2.png" layout='fill'/>
               </div>
@@ -34,8 +34,8 @@ function Property() {
             </div>
         </div>
         <div className='col-span-2'>
-          <div className='flex flex-row justify-between items-center mb-[50px] ' >
-            <div>
+          <div className='flex flex-row justify-between items-center mb-[50px] ' data-aos="fade-left" data-aos-duration="1200" >
+            <div  >
               <span className='flex flex-row mt-7 mb-2 ' >
                 <span className='block text-[#E6DDFF] text-[18px] font-normal ' >
                   Building a next-generation collaborative platform to connect renters, homeowners, and agents.
@@ -62,17 +62,17 @@ function Property() {
            </div>
           </div>
           <div className='grid grid-cols-2 gap-7 h-full' >
-            <div className=' relative w-full h-2/3  col-span-1'>
+            <div className=' relative w-full h-2/3  col-span-1' data-aos="fade-up" data-aos-duration="1200">
               <Image src="/images/p1.png" layout='fill'/>
             </div>
-            <div className=' relative w-full h-2/3  col-span-1'>
+            <div className=' relative w-full h-2/3  col-span-1' data-aos="fade-up" data-aos-duration="1500">
               <Image src="/images/p2.png" layout='fill'/>
             </div>
           </div>
         </div>
       </div>
       
-      <div className=' w-full h-[700px] md:hidden block bg-main-purple mb-[450px]  ' >
+      <div className=' w-full h-[700px] md:hidden block bg-main-purple mb-[450px]  ' data-aos="fade-up" data-aos-duration="1200" >
       <div className='w-full'>
         <span className='font-semibold text-[#fff] text-[38px] ' >Popular Property</span>
         <div>

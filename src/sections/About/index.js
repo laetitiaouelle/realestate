@@ -4,7 +4,7 @@ import React from 'react'
 function About() {
   return (
     <div className="px-[18px] sm:px-[50px] lg:px-[135px] py-[120px] grid grid-cols-2 ">
-      <div className=' mr-[130px] xl:mr-[200px]  col-span-2 lg:col-span-1'>
+      <div className=' mr-[130px] xl:mr-[200px]  col-span-2 lg:col-span-1' data-aos="fade-right" data-aos-duration="1200">
         <div className=' block relative md:w-[470px] md:mx-auto lg:mx-0 lg:w-full h-[350px] w-[250px] mx-auto sm:h-[470px]  rounded-2xl ' >
           <Image src="/images/img1.png" layout='fill' objectFit='cover' className='rounded-2xl' />
           <div className='absolute px-[48px] py-[28px] bg-[#fff] rounded-xl right-[-99px] bottom-12 flex flex-col items-center shad' >
@@ -23,7 +23,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className='col-span-2 lg:col-span-1' >
+      <div className='col-span-2 lg:col-span-1' data-aos="fade-left" data-aos-duration="1200" >
         <span className='block sm:mt-10 lg:mt-0 text-2xl mt-10 md:leading-[70px] sm:text-[2em] xl:text-[3.5em] 2xl:text-[4em] font-semibold text-[#191623] ' >
          Providing the effective solutions for you
         </span>

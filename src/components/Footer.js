@@ -5,7 +5,7 @@ import {FaFacebookF, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 function Footer() {
   return (
     <div className='bg-bg' >
-        <div className='grid grid-cols-2  ' >
+        <div className='grid grid-cols-2  ' data-aos="fade-up" data-aos-duration="1200" >
             <div className='lg:col-span-1 col-span-2 mb-10 lg:mb-0' >
                 <div className='flex flex-row items-center' >
                     <span className='block h-6 w-6 relative'>
@@ -152,7 +152,7 @@ function Footer() {
         </div>
         <span className='block w-full h-[2px] bg-[#CDC9BB] mt-[72px] ' ></span>
         <div className='grid grid-cols-2 py-8' >
-            <div className='col-span-1 flex flex-row' >
+            <div className='col-span-1 flex flex-row'  >
                 <a  className='flex items-center justify-center w-9 h-9 rounded-full bg-main-orange mr-[14px] ' >
                     <FaFacebookF color='#fff' />
                 </a>   

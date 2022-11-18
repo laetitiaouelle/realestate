@@ -7,20 +7,20 @@ function Hero() {
     <div className=" px-[18px] sm:px-[50px] lg:px-[135px] pt-10 bg-bg" >
       <NavBar/>
       <div className='mt-[92px] w-full 2xl:h-[360px]  grid grid-cols-4 sm:gap-7 gap-3 ' >
-          <div className=' col-span-1 min-w-[80px] min-h-[190px] max-h-[530px] relative' >
+          <div className=' col-span-1 min-w-[80px] min-h-[190px] max-h-[530px] relative' data-aos="fade-up" data-aos-duration="1000" >
             <img src="/images/home1.png" className='object-fill' />
           </div>
-          <div className='col-span-1 min-w-[80px] min-h-[190px] max-h-[530px]  relative translate-y-7'>
-            <img src="/images/home2.png" className='object-fill'  />
+          <div className='col-span-1 min-w-[80px] min-h-[190px] max-h-[530px]  relative '  data-aos="fade-down" data-aos-duration="1200">
+            <img src="/images/home2.png" className='object-fill translate-y-7'  />
           </div>
-          <div className='col-span-1 min-w-[80px] min-h-[190px] max-h-[530px]  relative ' >
+          <div className='col-span-1 min-w-[80px] min-h-[190px] max-h-[530px]  relative ' data-aos="fade-up" data-aos-duration="1400" >
             <img src="/images/home3.png" className='object-fill' />
           </div>
-          <div className=' col-span-1 min-w-[80px] min-h-[190px] relative max-h-[530px]  translate-y-7' >
-            <img src="/images/home4.png" className='object-fill' />
+          <div className=' col-span-1 min-w-[80px] min-h-[190px] relative max-h-[530px] ' data-aos="fade-down" data-aos-duration="1600" >
+            <img src="/images/home4.png" className='object-fill  translate-y-7' />
           </div>
       </div>
-      <div className=' -mt-5 sm:mt-[50px] md:mt-[70px] ' >
+      <div className=' -mt-5 sm:mt-[50px] md:mt-[70px] ' data-aos="fade-down" data-aos-duration="1200" >
         <span className='font-semibold sm:text-[56px] text-[44px] md:text-[65px] lg:text-[80px]  xl:text-[95px] 2xl::text-[110px] leading-[80px] lg:leading-[114px] text-main-dark w-[970px]' >
             Home is where <br/> your story begins
         </span>

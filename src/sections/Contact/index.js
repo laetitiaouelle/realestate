@@ -7,16 +7,16 @@ function Contact() {
     <div className="px-[18px] sm:px-[50px] lg:px-[135px] xl:h-auto bg-bg pt-[150px] ">
       <div className='grid grid-cols-2' >
         <div className=' col-span-2 lg:col-span-1 grid grid-cols-2 gap-7' >
-          <div className=' relative w-full max-h-[470px] min-h-[470px] sm:col-span-1  col-span-2  '>
+          <div className=' relative w-full max-h-[470px] min-h-[470px] sm:col-span-1  col-span-2  ' data-aos="fade-up" data-aos-duration="1200">
             <Image src="/images/home2.png" layout='fill'objectFit='cover' className='rounded-xl' />
           </div>
-          <div className=' relative w-full max-h-[470px] min-h-[470px] sm:col-span-1 col-span-2 '>
+          <div className=' relative w-full max-h-[470px] min-h-[470px] sm:col-span-1 col-span-2 ' data-aos="fade-down" data-aos-duration="1200">
             <Image src="/images/home4.png" layout='fill'objectFit='cover' className='rounded-xl' />
           </div>
 
         </div>
         <div className='col-span-2 lg:col-span-1 mt-10 lg:mt-0 lg:ml-[130px] flex justify-center items-center' >
-          <div className=''>
+          <div className='' data-aos="fade-left" data-aos-duration="1200">
             <span className='block sm:text-[44px] text-3xl mt-10 md:leading-[70px] font-semibold text-[#191623] ' >
               Ready to find your dream home?
             </span>
